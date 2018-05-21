@@ -12,6 +12,8 @@
 		045AAFB5207348B200FF172E /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AAFB3207348B200FF172E /* PlaceholderTextView.m */; };
 		045AAFBA2073494E00FF172E /* Cell+ReuseIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 045AAFB82073494E00FF172E /* Cell+ReuseIdentifier.h */; };
 		045AAFBB2073494E00FF172E /* Cell+ReuseIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 045AAFB92073494E00FF172E /* Cell+ReuseIdentifier.m */; };
+		04A88AA420B2D87900236936 /* SearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A88AA220B2D87900236936 /* SearchBar.h */; };
+		04A88AA520B2D87900236936 /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A88AA320B2D87900236936 /* SearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		045AAFB3207348B200FF172E /* PlaceholderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
 		045AAFB82073494E00FF172E /* Cell+ReuseIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cell+ReuseIdentifier.h"; sourceTree = "<group>"; };
 		045AAFB92073494E00FF172E /* Cell+ReuseIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell+ReuseIdentifier.m"; sourceTree = "<group>"; };
+		04A88AA220B2D87900236936 /* SearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
+		04A88AA320B2D87900236936 /* SearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		045AAFAD2073485E00FF172E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04A88AA120B2D84C00236936 /* UISearchBar */,
 				045AAFBC2073514000FF172E /* UITextInput */,
 				045AAFB6207348FB00FF172E /* Carthages */,
 				045AAFB12073487500FF172E /* Supporting Files */,
@@ -104,6 +109,15 @@
 			name = NSString;
 			sourceTree = "<group>";
 		};
+		04A88AA120B2D84C00236936 /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				04A88AA220B2D87900236936 /* SearchBar.h */,
+				04A88AA320B2D87900236936 /* SearchBar.m */,
+			);
+			name = UISearchBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -111,6 +125,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A88AA420B2D87900236936 /* SearchBar.h in Headers */,
 				045AAFB4207348B200FF172E /* PlaceholderTextView.h in Headers */,
 				045AAFBA2073494E00FF172E /* Cell+ReuseIdentifier.h in Headers */,
 				045AAFB02073486400FF172E /* BaseKit.h in Headers */,
@@ -186,6 +201,7 @@
 			files = (
 				045AAFB5207348B200FF172E /* PlaceholderTextView.m in Sources */,
 				045AAFBB2073494E00FF172E /* Cell+ReuseIdentifier.m in Sources */,
+				04A88AA520B2D87900236936 /* SearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
